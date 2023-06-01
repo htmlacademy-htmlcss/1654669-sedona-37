@@ -2,8 +2,6 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Гостиницы Седоны</title>
 </head>
 <body>
@@ -52,7 +50,7 @@
           </li>
         </ul>
         <h2 class="visually-hiden">Список гостиниц с фильтрами</h2>
-        <form class="catalog-filter" action="#" method="get">
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
              <ul class="catalog-filter-list">
@@ -99,11 +97,14 @@
               </li>
              </ul>
           </fieldset>
-
-          <button class="button" type="submit">Применить</button>
+          <div>
+            <button class="button" type="submit">Применить</button>
+            <button class="button button-res" type="reset">Сбросить</button>
+          </div>
         </form>
       </section>
         <section>
+          <h2>Найдено гостиниц: 38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала популярные</option>
           <option value="cheap">Сначала дешёвые</option>
@@ -112,7 +113,6 @@
         <a href="#" class="sorting-link sorting-link-current" aria-label="Показать карточки"></a>
         <a href="#" class=" sorting-link" aria-label="Показать карточки с описанием"></a>
         <a href="#" class="sorting-link" aria-label="Показать список"></a>
-        <div>
           <ul class="product-list">
            <li class="product-card">
              <a class="product-card-link" href="#">
@@ -180,8 +180,27 @@
              <p>Рейтинг: 5,0</p>
              </li>
         </ul>
-        </div>
       </section>
+      <ul class="pagination">
+        <li class="pagination-item">
+          <a class="pagination-link pagination-curent" href="#">1</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link " href="#">2</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link " href="#">3</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link " href="#">4</a>
+          <li class="pagination-item">
+            <a class="pagination-link " href="#">...</a>
+          </li>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link " href="#">10</a>
+        </li>
+      </ul>
     </main>
 
   </header>
@@ -189,7 +208,7 @@
     <section class="newsletter">
       <h2 class="page-footer-title"> Подпишитесь на рассылку </h2>
       <p class="page-footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form class="newsletter-form" action="#" method="post">
+      <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
         <label for="newsletter-email">
         <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
         </label>
