@@ -51,7 +51,8 @@
         </ul>
         <h2 class="visually-hiden">Список гостиниц с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-group">
+          <div>
+            <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
              <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
@@ -74,6 +75,8 @@
               </li>
              </ul>
           </fieldset>
+        </div>
+        <div>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
             <ul class="catalog-filter-list">
@@ -97,6 +100,7 @@
               </li>
             </ul>
           </fieldset>
+        </div>
           <div>
             <button class="button" type="submit">Применить</button>
             <button class="button button-res" type="reset">Сбросить</button>
@@ -177,7 +181,7 @@
       </div>
       <div class="newsletter">
         <h2 class="page-footer-title"> Подпишитесь на рассылку </h2>
-        <p class="page-footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <div class="page-footer-text">Только полезная информация и никакого спама, честное бойскаутское!</div>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="newsletter-email">
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
