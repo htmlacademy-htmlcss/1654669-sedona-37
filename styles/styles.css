@@ -684,7 +684,7 @@ a.breadcrumbs-link-home {
 .control {
   position: relative;
   display: block;
-
+  padding-left: 35px;
 }
 .control-mark {
   position: absolute;
