@@ -341,7 +341,7 @@ body{
 }
 
 .card-item:nth-child(2n+1){
-  background: rgba(131, 179, 211, 0.12);
+  background: rgba(131, 179, 211, 0.122);
  }
 
 .card-item{
@@ -529,6 +529,7 @@ body{
 }
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   width: 141px;
   min-height: 40px;
   padding: 0;
@@ -1115,6 +1116,9 @@ margin: 0;
   background-position: center;
   margin: 0;
 }
+.star-5{
+width: 107px;
+}
 .star-4{
 width: 89px;
 }
@@ -1123,6 +1127,9 @@ width: 66px;
 }
 .star-2{
 width: 42px;
+}
+.star-1{
+width: 24px;
 }
 .rating {
   margin: 0;
@@ -1239,6 +1246,8 @@ a.pagination-curent {
   box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
 }
 .modal-title {
+  max-width: 515px;
+  min-height: 36px;
   margin-top: 0;
   margin-bottom: 64px;
   font-size: 30px;
