@@ -697,6 +697,12 @@ a.breadcrumbs-link-home {
   display: block;
   padding-left: 35px;
 }
+.control-input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 .control-mark {
   position: absolute;
   top: 2px;
