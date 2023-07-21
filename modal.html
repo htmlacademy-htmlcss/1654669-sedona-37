@@ -204,19 +204,21 @@
        <div class="modal-field">
           <label class="modal-label" for="date-of-departure">
       <span class="modal-text"> Дата выезда:</span>
-</label>
+    </label>
       <input class="modal-input input-text" type="text" id="date-of-departure" name="date-of-departure" value="1 сентября 2023" required>
       <span class="icon-date"></span>
       <p class="input-state">На эти даты есть свободные номера. Пока есть.</p></div>
       <div class="modal-field modal-field-short">
-        <span class="modal-text"> Взрослые:</span>
+        <label class="modal-label" for="number-of-adults">
+          <span class="modal-text"> Взрослые:</span>
+        </label>
         <button class="button-minus button-counter" type="button">
           <span class="visually-hidden">Уменьшить количество взрослых.</span>
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M3 9V11H17V9H3Z" fill="#000000" />
           </svg>
         </button>
-        <input class="modal-input input-number" type="text" name="number-of-adults" value="2" required>
+        <input class="modal-input input-number" type="text" name="number-of-adults"  id="number-of-adults" value="2" required>
         <button class="button-plus button-counter" type="button">
           <span class="visually-hidden">Увеличить количество взрослых.</span>
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -225,7 +227,9 @@
         </button>
        </div>
          <div class="modal-field modal-field-short">
+          <label class="modal-label" for="numbers-of-children">
             <span class="modal-text">Дети:</span>
+          </label>
             <div class="tooltip-container">
               <button class="tooltip tooltip-button" type="button">
                 <span class="visually-hidden">информация о размещении детей.</span>
@@ -239,7 +243,7 @@
                 <path d="M3 9V11H17V9H3Z" fill="#000000"/>
               </svg>
             </button>
-            <input class=" modal-input input-number" type="text" name="numbers-of-children" value="2" required>
+            <input class=" modal-input input-number" type="text" name="numbers-of-children" id="numbers-of-children" value="2" required>
             <button class="button-plus button-counter" type="button">
               <span class="visually-hidden">Увеличить количество детей.</span>
               <svg  width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
