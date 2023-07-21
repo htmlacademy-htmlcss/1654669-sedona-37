@@ -713,10 +713,15 @@ a.breadcrumbs-link-home {
   border-radius: 4px;
 }
 
-.control:hover {
-  opacity: 0.6;
+.control:hover .control-input:not(:disabled) {
+  opacity: 60%;
 }
-
+.control:hover .label-text-filter {
+  opacity: 60%;
+}
+.control-input:disabled + .label-text-filter {
+  opacity: none;
+}
 
 .control-input[type="checkbox"]:disabled+ .control-mark{
   opacity:10%;
@@ -728,9 +733,6 @@ a.breadcrumbs-link-home {
 
 .control-input:focus + .checkbox-mark {
   outline: 3px solid #83b3d3;
-}
-.control-input:focus + .control-mark {
-  outline: 3px solid #81b2d2;
 }
 
 .control:active,
