@@ -584,6 +584,7 @@ body{
 /*Стили для каталога*/
 /* filter section */
 .search-filter{
+  font-style: normal;
   background-image:url(../images/hotels/filter.jpg);
   text-align: center;
   background-repeat: no-repeat;
@@ -834,6 +835,7 @@ margin: 0;
   margin-top: 46px;
 }
 .apply-button {
+  font-family: inherit;
   display: block;
   font-weight: 700;
   font-size: 16px;
@@ -859,6 +861,7 @@ margin: 0;
   background-color: #e5e5e5;
 }
 .reset-button {
+  font-family: inherit;
   display: block;
   font-weight: 700;
   font-size: 16px;
