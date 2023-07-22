@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Гостиницы Седоны</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+
   <!-- whole page container -->
   <div class="container">
     <!-- header -->
     <header class="page-header" data-test="header">
       <div class="nav-logo">
           <img class="page-header-logo" src="images/header/logo.svg" width="140" height="70" alt="Лого Седоны">
-        </div>
+      </div>
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-link " href="index.html">Главная</a>
+            <a class="nav-link" href="index.html">Главная</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">О Седоне</a>
@@ -27,18 +29,18 @@
         </ul>
         <ul class="nav-user nav-list">
           <li class="nav-item">
-            <a class="nav-link nav-search" href="#" >
-              <span class="visually-hidden"> Поиск</span>
+            <a class="nav-link nav-search" href="#">
+              <span class="visually-hidden"> Поиск.</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-fav" href="#" >
-              <span class="visually-hidden"> Избранное</span>
+            <a class="nav-link nav-fav" href="#">
+              <span class="visually-hidden"> Избранное.</span>
               <span class="favorite">12</span>
                 </a>
           </li>
           <li class="nav-item">
-            <a class="nav-button" href="#" >ХОЧУ СЮДА!</a>
+            <a class="nav-button" href="#">ХОЧУ СЮДА!</a>
           </li>
         </ul>
       </nav>
@@ -56,7 +58,7 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
-        <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+        <h2 class="visually-hidden">Список гостиниц с фильтрами.</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
           <div>
             <fieldset class="catalog-filter-group">
@@ -64,23 +66,23 @@
              <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input visually-hidden" type="checkbox" name="pool" checked>
+                  <input class="control-input" type="checkbox" name="pool" checked>
                   <span class="control-mark"></span>
-              Бассейн
+                  <span class="label-text-filter">Бассейн </span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input visually-hidden" type="checkbox" name="parking"checked>
+                  <input class="control-input" type="checkbox" name="parking" checked>
                   <span class="control-mark"></span>
-                  Парковка
+                  <span class="label-text-filter">Парковка </span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input visually-hidden" type="checkbox" name="wi-fi">
+                  <input class="control-input" type="checkbox" name="wi-fi">
                   <span class="control-mark"></span>
-                  Wi-Fi
+                  <span class="label-text-filter">Wi-Fi </span>
                 </label>
               </li>
              </ul>
@@ -92,23 +94,23 @@
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input visually-hidden" type="radio" name="housing-types" checked>
+                  <input class="control-input" type="radio" name="housing-types" checked>
                   <span class="control-mark"></span>
-                  Гостиница
+                  <span class="label-text-filter">Гостиница </span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input visually-hidden" type="radio" name="housing-types">
+                  <input class="control-input" type="radio" name="housing-types">
                   <span class="control-mark"></span>
-                  Мотель
+                  <span class="label-text-filter">Мотель </span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input visually-hidden" type="radio" name="housing-types">
+                  <input class="control-input" type="radio" name="housing-types">
                   <span class="control-mark"></span>
-                  Апартаменты
+                  <span class="label-text-filter">Апартаменты </span>
                 </label>
               </li>
             </ul>
@@ -159,17 +161,17 @@
               <ul class="sorting-list">
                 <li class="sorting-item">
                   <button class="sorting-button show-cards sorting-button-current">
-                    <span class="visually-hidden">Показать карточки</span>
+                    <span class="visually-hidden">Показать карточки.</span>
                   </button>
                 </li>
                 <li class="sorting-item">
                   <button class="sorting-button show-cards-description">
-                    <span class="visually-hidden">Показать карточки с описанием</span>
+                    <span class="visually-hidden">Показать карточки с описанием.</span>
                   </button>
                 </li>
                 <li class="sorting-item">
                   <button class="sorting-button show-list">
-                    <span class="visually-hidden">Показать список</span>
+                    <span class="visually-hidden">Показать список.</span>
                   </button>
                 </li>
               </ul>
@@ -205,7 +207,6 @@
             </p>
              <p class="rating">Рейтинг: 9,2</p>
            </li>
-            </li>
             <li class="hotel-card">
               <a class="hotel-card-link" href="#">
                 <img class="hotel-card-image" src="images/hotels/hotel-3.jpg" width="300" height="212" alt="Вид на каньон в ясную погоду из гостиницы Desert Quail Inn">
@@ -271,11 +272,10 @@
         </form>
       </section>
     </main>
-  </header>
   <!-- footer -->
   <footer class="page-footer" data-test="footer">
     <div class="footer-social">
-      <h2 class="visually-hidden">Социальные сети HTML Academy</h2>
+      <h2 class="visually-hidden">Социальные сети HTML Academy.</h2>
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="social-link" href="https://vk.com/htmlacademy" aria-label="Вконтакте">
@@ -301,7 +301,7 @@
       </ul>
     </div>
     <div class="footer-contacts">
-      <h2 class="visually-hidden">Контактный телефон</h2>
+      <h2 class="visually-hidden">Контактный телефон.</h2>
       <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
     </div>
     <div>
